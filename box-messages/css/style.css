@@ -19,7 +19,8 @@
     padding-left: 75px;
     line-height: 75px;
     background-repeat: no-repeat;
-     background-position: 20px center;
+    background-position: 20px center;
+    box-shadow: 1px 1px 5px #eee
 }
 
 .info{
@@ -27,7 +28,8 @@
     background-color: #d7eef6;
     background-image: url(images/icon-info.png);
      border-color: #cee0e4;
-    /*font color: #3e5d6f;*/
+    color: #3e5d6f;
+
 }
 
 
@@ -35,14 +37,14 @@
     background-color: #def0d8;
     background-image: url(images/icon-success.png);
     border-color: #d9e5cf;
-    /*font color: #4e6841;*/
+    color: #4e6841;
 }
 
 .warning{
     background-color: #fbf8e5;
     background-image: url(images/icon-warning.png);
     border-color: #f4eddb;
-    /*font color: #7f743c;*/
+    color: #7f743c;
 }
 
 .error
@@ -50,5 +52,5 @@
     background-color: #f2dedf;
     background-image: url(images/icon-error.png);
     border-color: #e2d4d3;
-    /*font color: #8c433a;*/
+    color: #8c433a;
     }
